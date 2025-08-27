@@ -91,24 +91,11 @@ class Graph:
     }
   
 
-# exemplo:
-g = Graph()
-g.adicionar_vertice("inicio")
-g.adicionar_vertice("A")
-g.adicionar_vertice("B")
-g.adicionar_vertice("fim")
 
-
-g.adicionar_aresta("inicio", "A", 6)
-g.adicionar_aresta("inicio", "B", 2)
-g.adicionar_aresta("A", "fim", 1)
-g.adicionar_aresta("B", "A", 3)
-g.adicionar_aresta("B", "fim", 5)
-
-
-print(g.dijkstra("inicio", "fim"))
 
 
         
+
+
 
 
